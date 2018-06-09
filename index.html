@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sticky Footer</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="#" id="logo">Lestee Foye</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>About Me</h1>
+
+        <p>I am a theologian, pianist, Minister, and teacher. I am interested in Web Developemnt. I am especially interested in creating media content for the web.</p>
+
+      </section>
+
+      <section class="sidebar">
+        <div id="connect">
+          <h2>Connect with Me</h2>
+
+          <img src="assets/images/github-128.png" class="social" alt="Github">
+          <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+          <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+        </div>
+      </section>
+
+      <div class="push"></div>
+    </div>
+  </div>
+  
+<!--For mobile phones and tablets-->
+<style>
+    @media only screen and (max-width: 980px) {
+        .wrapper {width: 50%; margin-left: 50px}
+        #masthead {width: 75%; margin-left: 50px}
+    }
+    @media only screen and (max-width: 768px) {
+        .wrapper {width: 60%; margin-left: 30px}
+        #masthead {margin-left: 50px; width: 60;}
+        nav {font-size: small}
+        
+    }
+    @media only screen and (max-width: 640px) {
+        .wrapper {width:70%; margin-left: 40px}
+        #logo {margin-left: 60px}
+        nav {margin-right: 50px; font-size: small}
+    }
+</style>
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
